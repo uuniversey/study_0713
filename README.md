@@ -111,22 +111,25 @@ console.log('hello World')
 * **git 동작**
 1. git init
     * 로컬 저장소 초기화 설정 - git 버전 관리를 시작할 디렉토리에서 진행되고 디렉토리 안에 있는 하위 폴더까지 git으로 관리 가능
+
 2. git add
     * 변경 사항이 있는 파일을 staging area에 추가
+
 3. git commit
     * staging area에 있는 파일들을 repository에 기록하여 해당 시점을 생성하고 변경 이력을 남기는 것
     * `**어떤 이유로 이 버전을 찍게되었는지를  text로 기록하는 것이 필수**`
-4. git status
+
+4. **git status**
     * staging area 현황 확인
 
+5. git commit -m "bla bla" : 버전 변경 text 남기기
 
-5. git commit -m "bla bla" ----- 버전 변경 text 남기기
-6. git log ---- 커밋 내역 확인
+6. git log : 커밋 내역 확인
+    * git log --online : 변경 내역 text만 보기
 
 7. 메세지 입력창에서
     * i or insert 편집모드 
     * esc 나갈 준비 ------ 나가기 :q
-
 
 ?. git restore
     * staging area를 비운다?
