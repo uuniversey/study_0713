@@ -131,6 +131,8 @@ console.log('hello World')
     * i or insert 편집모드 
     * esc 나갈 준비 ------ 나가기 :q
 
+8. git remote add 'remote repo의 닉네임(origin)' 'remote repo의 주소'
+    * ex : 
 ?. git restore
     * staging area를 비운다?
 
